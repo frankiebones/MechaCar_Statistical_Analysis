@@ -35,3 +35,13 @@ With a p-value of <b>0.04168</b> we can reject the null hypothesis assuming our 
 ![lot3](https://user-images.githubusercontent.com/15967377/179400731-c8be5fcb-9e04-4c22-ab60-aed13a3a58b6.PNG)
 ***
 ## Design a Study Comparing the MechaCar to the Competition
+
+In an effort to show how safe the MechaCar is when compared to the competition we could gather metrics on Braking Distance. 
+
+Braking Distance is primarily affected by the original speed of the vehicle and the coefficient of friction between the tires and the road surface, and negligibly by the tires' rolling resistance and vehicle's air drag. Therefore we would also need to gather and compare those metrics.
+
+H0: The MechaCar has a shorter Braking Distance than the competition.
+
+Ha: The MechaCar has the same or greater Braking Distance as the competition.
+
+We could perform a multiple linear regression to predict the Braking Distance of the MechaCar. We would most likely use the original speed of the vehicle as the dependent variable by matching it to those used by competitors and use metrics such as vehicle weight and the coefficient of friction as independent variables.
